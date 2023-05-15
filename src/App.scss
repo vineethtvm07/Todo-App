@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    body{
+      background:black;
+      color: #fff;
+      font-family:"poppins", sans-serif;
+      min-height: 95vh;
+      display: flex;
+      justify-content: center;
+    
+      .app-container {
+        width:600px;
+        height: 95%;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        background-image: linear-gradient(rgb(4, 7, 83),rgba(110, 3, 56, 0.767));
+        box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.463);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+      }
+    }
+  }
